@@ -46,6 +46,8 @@ Transformations applied to the images before training include the following:
   - `Adam`: An adaptive learning rate optimizer known for its fast convergence and efficiency.
 
 git clone https://github.com/MinhmpcNguyen/Deep-Learning-2024.git
+
 cd Deep-Learning-2024
+
 python3 infer.py --image_path image.jpeg
 

@@ -57,5 +57,7 @@ For running on Kaggle:
 
 !git clone https://github.com/MinhmpcNguyen/Deep-Learning-2024.git
 
+In this line parser.add_argument("--checkpoint", type=str, default="best_model_optimized.pth", help="Path to the model checkpoint.") replace "best_model_optimized.pth" to "/kaggle/Deep-Learning-2024/best_model_optimized.pth"
+
 !python3 /kaggle/Deep-Learning-2024/infer.py --image_path image.jpeg
 

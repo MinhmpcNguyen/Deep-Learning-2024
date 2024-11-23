@@ -45,10 +45,15 @@ cd Deep-Learning-2024
 
 python3 infer.py --image_path image.jpeg
 
-For running on colab or kaggle:
+For running on colab:
 
 !git clone https://github.com/MinhmpcNguyen/Deep-Learning-2024.git
 
-!cd Deep-Learning-2024
+!python3 /content/Deep-Learning-2024/infer.py --image_path image.jpeg
 
-!python3 infer.py --image_path image.jpeg
+For running on Kaggle:
+
+!git clone https://github.com/MinhmpcNguyen/Deep-Learning-2024.git
+
+!python3 /kaggle/Deep-Learning-2024/infer.py --image_path image.jpeg
+
